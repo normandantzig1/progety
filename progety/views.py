@@ -2,11 +2,10 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-from .models import Term, Etymology, Comment
+from .models import Term
 
-#def addTerm(request) ############################Experimental
 
-##########################Experimental
+
 def index(request):
     return render(request, 'progety/templates/home.html')
 
